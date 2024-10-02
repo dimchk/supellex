@@ -88,8 +88,13 @@
 .czico-086-note:before{content:'\e855';}
 .czico-022-shopping-bag-5:before{content:'\e856';}
 .czico-088-envelope-of-white-paper:before{content:'\e857';}
-.czico-089-mail-1:before{content:'\e858';}
-.czico-090-envelope-1:before{content:'\e859';}
+.czico-089-mail-1:before {
+    content: '\f0e0'; /* Unicode for Font Awesome envelope icon */
+    font-family: 'Font Awesome 5 Free', serif;
+    font-weight: 900; /* Font Awesome requires this for solid icons */
+    font-style: normal;
+    display: inline-block;
+}.czico-090-envelope-1:before{content:'\e859';}
 .czico-091-message-1:before{content:'\e85a';}
 .czico-092-mail:before{content:'\e85b';}
 .czico-093-message:before{content:'\e85c';}
@@ -298,7 +303,11 @@
 .czico-119-gallery:before{content:'\e928';}
 .czico-120-layout:before{content:'\e929';}
 .czico-121-24-hours:before{content:'\e92a';}
-.czico-122-phone-call:before{content:'\e92b';}
+.czico-122-phone-call:before{content: '\f095'; /* Unicode for Font Awesome phone icon */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900; /* Font Awesome requires this for solid icons */
+    font-style: normal;
+    display: inline-block;}
 .czico-123-call:before{content:'\e92c';}
 .czico-124-smartphone-call:before{content:'\e92d';}
 .czico-minus-symbol:before{content:'\e92e';}
